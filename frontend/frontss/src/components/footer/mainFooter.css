@@ -1,0 +1,8 @@
+
+.mainFooter{
+    background-color: rgba(150, 240, 90, 0.6);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: auto;
+}

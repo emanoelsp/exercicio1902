@@ -1,0 +1,14 @@
+
+.mainSection{
+    flex: auto;
+    padding: 20px;
+}
+
+.mainSection h1{
+    text-align: center;
+    text-shadow: 2px 2px yellow;
+}
+
+.mainSection p{
+    text-align: justify;
+}

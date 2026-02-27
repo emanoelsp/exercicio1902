@@ -1,42 +1,6 @@
 .App {
   background-color: darkslategrey;
-  height: 100vh;
-}
-
-.topHeader{
-  text-align: center;
-  background-color: aquamarine;
-  color: blue;
-  height: 15vh;
-  margin-top: -5vh;
-  padding-top: 5vh;
-}
-
-.topHeaderH1{
-  background-color: darkgray;
-  margin-left: 50vh;
-  margin-right: 50vh;
-}
-
-.menuNav ul li{
-  list-style: none;
-  display: inline;
-  margin-left: 15px;
-  border-radius: 20%;
-  height: 10vh;
-}
-
-.menuNav ul li:hover{
-  background-color: rgba(255, 200, 100, 0.6);
-  padding: 4px;
-}
-
-.mainSection {
-  height: 60vh;
-  background-color: rgba(10, 100, 200, 0.4);
-}
-
-.mainFooter{
-  height: 15vh;
-  background-color: rgba(148, 240, 95, 0.596);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
