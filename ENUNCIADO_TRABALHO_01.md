@@ -188,10 +188,6 @@ Boas práticas no bônus:
 - rotas da API do backend (método HTTP, caminho da rota e objetivo);
 - explicação do gerenciamento de estado no frontend (ex.: `useState`, `useEffect`, fluxo de dados e atualização da tela).
 
-4. Demonstração em sala (ou vídeo curto), mostrando:
-- fluxo completo de cadastro, listagem, atualização e exclusão;
-- funcionamento do bônus (se implementado).
-
 ## 11) Checklist final do aluno
 Antes de entregar, confirme:
 1. CRUD completo funcionando.
