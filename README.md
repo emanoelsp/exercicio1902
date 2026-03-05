@@ -13,7 +13,7 @@ O projeto utiliza o contexto de **cadastro de usuários**. Cada usuário possui:
 
 ## Arquitetura
 
-O projeto segue uma arquitetura **client-server** com separação clara entre frontend e backend.
+O projeto segue uma arquitetura **cliente-servidor** com separação clara entre frontend e backend.
 
 ### Visão geral
 
@@ -44,7 +44,7 @@ O frontend é organizado em três camadas principais:
 |-------|------------------|
 | `components/` | Componentes reutilizáveis de layout (Header, Nav, Footer) |
 | `pages/` | Telas por funcionalidade (listar, cadastrar, atualizar, deletar, buscar por ID) |
-| `handle*.js` | Funções de chamada HTTP com Axios (isoladas dos componentes visuais) |
+| `handle*.js` | Funções para chamadas HTTP com Axios (isoladas dos componentes visuais) |
 
 **Estrutura de pastas:**
 
@@ -66,9 +66,9 @@ frontend/frontss/src/
 ```
 
 **Decisões técnicas:**
-- **React Router** para navegação entre telas (sem recarregar a página)
+- **React Router DOM** para navegação entre telas (sem recarregar a página)
 - **Axios** para requisições HTTP (GET, POST, PUT, DELETE)
-- **handle*.js** separados dos componentes para manter a lógica de API isolada da UI
+- **arquivos `handle*.js`** separados dos componentes para manter a lógica de API isolada da UI
 - **CSS simples** por página (sem framework CSS)
 
 ### Backend
