@@ -186,7 +186,9 @@ Boas praticas no bonus:
 - como instalar dependencias,
 - como executar backend e frontend,
 - portas utilizadas,
-- lista de rotas da API.
+- rotas do frontend com React Router DOM (pagina/rota e finalidade de cada uma),
+- rotas da API do backend (metodo HTTP, caminho da rota e objetivo),
+- explicacao do gerenciamento de estado no frontend (ex.: `useState`, `useEffect`, fluxo de dados e atualizacao da tela).
 
 4. Demonstracao em sala (ou video curto), mostrando:
 - fluxo completo de cadastro, listagem, atualizacao e exclusao,
