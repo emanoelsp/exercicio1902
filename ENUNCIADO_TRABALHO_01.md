@@ -136,12 +136,13 @@ Rota complementar recomendada:
 ## 8) Critérios de avaliação (sugestão)
 Pontuação total: **100 pontos**
 
-1. Arquitetura e separação de responsabilidades - **25 pts**
+1. Arquitetura e separação de responsabilidades - **20 pts**
 2. Backend Node + Express + FileSync funcionando - **20 pts**
 3. Rotas CRUD obrigatórias funcionando - **20 pts**
 4. Frontend React + Axios integrado com backend - **20 pts**
-5. Interface CSS simples e layout clean - **10 pts**
+5. Interface CSS simples e layout clean - **5 pts**
 6. Organização do projeto e clareza de código - **5 pts**
+7. Entrega do github(projeto, histórico de commits e readme.md) - ** 10 pts **
 
 Critérios de aceite:
 1. Se faltar qualquer rota CRUD obrigatória, o trabalho é considerado incompleto.
