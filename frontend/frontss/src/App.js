@@ -4,13 +4,14 @@ import './App.css';
 
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
-import Section from './components/section/Section';
 import Footer from './components/footer/Footer';
 
-import SectionAtualiza from './pages/SectionAtualiza';
-import SectionDeleta from './pages/SectionDeleta';
-import SectionUser from './pages/SectionUser';
-import SectionCadastra from './pages/SectionCadastra';
+import Section from './pages/section/Section';
+import SectionAtualiza from './pages/update/SectionAtualiza';
+import SectionDeleta from './pages/deletar/SectionDeleta';
+import SectionUser from './pages/select/SectionUser';
+import SectionUserId from './pages/select_id/SectionUserId';
+import SectionCadastra from './pages/insert/SectionCadastra';
 
 function App() {
   return (
@@ -21,10 +22,10 @@ function App() {
         <Routes >
           <Route path="/" element={<Section />} />
           <Route path="/usuarios" element={<SectionUser />} />
-          <Route path="/usuarios/:id" element={<SectionUser />} />
+          <Route path="/usuarios/buscar" element={<SectionUserId />} />
           <Route path="/cadastrar" element={<SectionCadastra />} />
-          <Route path="/atualizar/:id" element={<SectionAtualiza />} />
-          <Route path="/deletar/:id" element={<SectionDeleta />} />
+          <Route path="/atualizar" element={<SectionAtualiza />} />
+          <Route path="/deletar" element={<SectionDeleta />} />
         </Routes>
       </BrowserRouter>
       <Footer />

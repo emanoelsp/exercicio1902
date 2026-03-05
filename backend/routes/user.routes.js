@@ -43,13 +43,11 @@ router.delete('/deletar_usuarios/:id', (req, res) => {
     const id_usuario = parseInt(req.params.id)
     const lista_usuarios = readUsers()
     const indice = lista_usuarios.findIndex(u => u.id === id_usuario)
-    if (indice === -1) {
-        res.status(404).json({ error: "Usuário não encontrado" })
-    } else {
+    if (indice !== -1) {
         lista_usuarios.splice(indice, 1)
         saveUser(lista_usuarios)
-        res.json(lista_usuarios)
     }
+    res.json(lista_usuarios)
 })
 
 module.exports = router

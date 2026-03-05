@@ -1,0 +1,128 @@
+.page-container {
+  max-width: 520px;
+  margin: 32px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.page-title {
+  margin-bottom: 16px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #222222;
+}
+
+.form.search-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  max-width: 200px;
+}
+
+.input-group label {
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.input-group input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e0;
+  font-size: 0.95rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 1px rgba(49, 130, 206, 0.3);
+}
+
+.button-primary {
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: none;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.15s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.button-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.button-primary:active {
+  transform: translateY(1px);
+}
+
+.user-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.user-list li + li {
+  margin-top: 4px;
+}
+
+.feedback-text {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #555555;
+}
+
+.feedback-text.error {
+  color: #d93025;
+}
+
+.feedback-text.success {
+  color: #188038;
+}
+
+.card {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.table th,
+.table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.table th {
+  font-weight: 600;
+  color: #4a5568;
+  background-color: #edf2f7;
+}
+
+.table tr:nth-child(even) td {
+  background-color: #f7fafc;
+}
+

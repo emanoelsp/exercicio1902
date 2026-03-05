@@ -7,10 +7,10 @@ function Nav () {
             <ul>
                 <li> <Link to="/"> Inicio </Link></li>
                 <li> <Link to="/usuarios"> Listar todos usuários </Link> </li>
-                <li> <Link to="/usuarios/:id"> Procurar usuários pelo ID </Link> </li>
+                <li> <Link to="/usuarios/buscar"> Procurar usuários pelo ID </Link> </li>
                 <li> <Link to="/cadastrar"> Adicionar novo usuário </Link> </li>
-                <li> <Link to="/atualizar/:id"> Alterar dados do usuário </Link></li>
-                <li> <Link to="/deletar/:id"> Deletar usuário </Link></li> 
+                <li> <Link to="/atualizar/"> Alterar dados do usuário </Link></li>
+                <li> <Link to="/deletar/"> Deletar usuário </Link></li> 
             </ul>
         </nav>
     )

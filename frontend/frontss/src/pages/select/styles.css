@@ -1,0 +1,62 @@
+.page-container {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.page-title {
+  margin-bottom: 16px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #222222;
+}
+
+.feedback-text {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #555555;
+}
+
+.feedback-text.error {
+  color: #d93025;
+}
+
+.feedback-text.success {
+  color: #188038;
+}
+
+.card {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.table th,
+.table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.table th {
+  font-weight: 600;
+  color: #4a5568;
+  background-color: #edf2f7;
+}
+
+.table tr:nth-child(even) td {
+  background-color: #f7fafc;
+}
+
