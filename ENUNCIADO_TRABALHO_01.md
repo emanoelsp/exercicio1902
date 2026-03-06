@@ -133,7 +133,7 @@ Rota complementar recomendada:
 - padrão visual consistente (cores, espaçamentos e tipografia);
 - sem necessidade de framework CSS (Bootstrap/Tailwind não obrigatórios).
 
-## 8) Critérios de avaliação (sugestão)
+## 8) Critérios de avaliação 
 Pontuação total: **100 pontos**
 
 1. Arquitetura e separação de responsabilidades - **20 pts**
@@ -149,7 +149,7 @@ Critérios de aceite:
 2. Se o frontend não consumir o backend via Axios, o trabalho é considerado incompleto.
 3. Se não houver separação mínima entre `routes` e `utils` no backend, perde nota de arquitetura.
 
-## 9) Bônus (até +10 pts)
+## 9) DESAFIO 
 Exibir na **tela inicial** o consumo de **uma API externa**, com informações básicas:
 
 Opção A:
