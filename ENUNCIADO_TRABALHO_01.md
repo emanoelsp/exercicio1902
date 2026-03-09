@@ -142,7 +142,7 @@ Pontuação total: **100 pontos**
 4. Frontend React + Axios integrado com backend - **20 pts**
 5. Interface CSS simples e layout clean - **5 pts**
 6. Organização do projeto e clareza de código - **5 pts**
-7. Entrega do github(projeto, histórico de commits e readme.md) - ** 10 pts **
+7. Entrega do github(projeto, histórico de commits e readme.md) - **10 pts**
 
 Critérios de aceite:
 1. Se faltar qualquer rota CRUD obrigatória, o trabalho é considerado incompleto.
